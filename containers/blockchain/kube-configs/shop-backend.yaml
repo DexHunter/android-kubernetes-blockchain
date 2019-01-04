@@ -24,7 +24,7 @@ spec:
         app: shop-backend
     spec:
       containers:
-      - image: DOCKERHUB_USERNAME/codepattern-backend:latest
+      - image: dexhunter/codepattern-backend:latest
         imagePullPolicy: Always
         name: shop-backend
         ports:

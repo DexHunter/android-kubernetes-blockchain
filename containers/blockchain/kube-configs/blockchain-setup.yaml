@@ -7,7 +7,7 @@ metadata:
 spec:
   restartPolicy: "Never"
   containers:
-  - image: DOCKERHUB_USERNAME/codepattern-blockchain-setup:latest
+  - image: dexhunter/codepattern-blockchain-setup:latest
     imagePullPolicy: Always
     name: blockchain-setup
     securityContext:

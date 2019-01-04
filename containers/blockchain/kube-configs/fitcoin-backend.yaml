@@ -11,7 +11,7 @@ spec:
         app: fitcoin-backend
     spec:
       containers:
-      - image: DOCKERHUB_USERNAME/codepattern-backend:latest
+      - image: dexhunter/codepattern-backend:latest
         imagePullPolicy: Always
         name: fitcoin-backend
         env:

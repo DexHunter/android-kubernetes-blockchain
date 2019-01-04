@@ -27,7 +27,7 @@ spec:
         app: fitcoin-peer
     spec:
       containers:
-      - image: DOCKERHUB_USERNAME/codepattern-fitcoin-peer:latest
+      - image: dexhunter/codepattern-fitcoin-peer:latest
         imagePullPolicy: Always
         workingDir: /peer
         command: ["peer"]

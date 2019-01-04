@@ -27,7 +27,7 @@ spec:
         app: shop-peer
     spec:
       containers:
-      - image: DOCKERHUB_USERNAME/codepattern-shop-peer:latest
+      - image: dexhunter/codepattern-shop-peer:latest
         imagePullPolicy: Always
         workingDir: /peer
         command: ["peer"]

@@ -29,11 +29,11 @@ spec:
         app: mobile-assets
     spec:
       containers:
-        - image: DOCKERHUB_USERNAME/codepattern-mobile-assets:latest
+        - image: dexhunter/codepattern-mobile-assets:latest
           imagePullPolicy: Always
           name: mobile-assets
           env:
             - name: MONGODB_URL
-              value: ''
+              value: 'mongodb://admin:KKPAZRVBOSFHZAYU@portal-ssl827-45.bmix-dal-yp-772887b7-c28d-474e-a854-e677f40cb390.159276422.composedb.com:19382,portal-ssl817-46.bmix-dal-yp-772887b7-c28d-474e-a854-e677f40cb390.159276422.composedb.com:19382/compose?authSource=admin&ssl=true'
           ports:
             - containerPort: 8080

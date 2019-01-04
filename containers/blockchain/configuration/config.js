@@ -9,8 +9,8 @@ const config = {
   chaincodeId: 'bcfit',
   chaincodeVersion: '1',
   chaincodePath: 'bcfit',
-  rabbitmq: 'YOUR_RABBITMQ_URL',
-  redisUrl: 'YOUR_REDIS_URL',
+  rabbitmq: 'amqps://admin:QVLCAOEFPOFZCBNN@portal-ssl828-47.bmix-dal-yp-3b5897fd-e047-4fc0-849e-5d4a6f7c8a41.159276422.composedb.com:19383/bmix-dal-yp-3b5897fd-e047-4fc0-849e-5d4a6f7c8a41',
+  redisUrl: 'rediss://admin:ZIXCXRIOPEHFVLTY@portal912-43.bmix-dal-yp-5f8361a7-d9da-4330-a859-df904e29d2db.159276422.composedb.com:19384',
   orderer: {
     hostname: 'orderer0',
     url: 'grpc://orderer0:7050',

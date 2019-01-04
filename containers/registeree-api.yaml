@@ -29,13 +29,13 @@ spec:
         app: registeree-api
     spec:
       containers:
-        - image: DOCKERHUB_USERNAME/codepattern-registeree-api:latest
+        - image: dexhunter/codepattern-registeree-api:latest
           imagePullPolicy: Always
           name: registeree-api
           env:
             - name: CLOUDFUNCTION_AVATAR
               value: 'https://service.us.apiconnect.ibmcloud.com/gws/apigateway/api/0c8f59e1d1d5405e25c88917bb965b2defd073b8ed3b5717183d253c13758c1a/api2/generateAvatar'
             - name: MONGODB_URL
-              value: ''
+              value: 'mongodb://admin:KKPAZRVBOSFHZAYU@portal-ssl827-45.bmix-dal-yp-772887b7-c28d-474e-a854-e677f40cb390.159276422.composedb.com:19382,portal-ssl817-46.bmix-dal-yp-772887b7-c28d-474e-a854-e677f40cb390.159276422.composedb.com:19382/compose?authSource=admin&ssl=true'
           ports:
             - containerPort: 8080

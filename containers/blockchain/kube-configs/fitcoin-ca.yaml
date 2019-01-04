@@ -24,7 +24,7 @@ spec:
         app: fitcoin-ca
     spec:
       containers:
-      - image: DOCKERHUB_USERNAME/codepattern-fitcoin-ca:latest
+      - image: dexhunter/codepattern-fitcoin-ca:latest
         imagePullPolicy: Always
         command: ["fabric-ca-server"]
         args: ["start","--db.datasource","db/fitcoin-fabric-ca-server.db"]
